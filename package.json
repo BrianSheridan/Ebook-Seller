@@ -1,0 +1,29 @@
+{
+  "name": "ebookseller",
+  "version": "1.0.0",
+  "description": "stripe website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianSheridan/Ebook-Seller.git"
+  },
+  "keywords": [
+    "Heroku",
+    "stripe"
+  ],
+  "author": "Brian Sheridan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianSheridan/Ebook-Seller/issues"
+  },
+  "homepage": "https://github.com/BrianSheridan/Ebook-Seller#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.3.0"
+  }
+}
